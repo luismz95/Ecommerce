@@ -590,7 +590,7 @@
   </div>
   <div class="cart__footer">
     <p class="cart__text">
-      <a class="button" href="index2.html" title="Buy products">
+      <a class="button" href="pagos.php" title="Buy products">
         Comprar articulos
       </a>
     </p>
