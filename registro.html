@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <title>EM-EX | TIENDA OFICIAL | REGISTRO</title>
+
+  <link rel="stylesheet" href="css/sesion.css">
+  <link rel="stylesheet" href="js/registro.js">
+
+</head>
+
+<header class="header content">
+ <div class="header-video">
+        <video src="IMAGENES/VIDIO.mp4" autoplay></video>
+      </div>
+  <div class="header-overlay"></div>
+  <div class="header-content">
+
+
+    
+    <p><h1> BIENVENIDO </h1>
+     EM-EX | Moda a Tu Estilo.</p>
+
+     <div class="login-page">
+      <div class="form">
+        <form class="register-form">
+          <input type="text" placeholder="name"/>
+          <input type="password" placeholder="password"/>
+          <input type="text" placeholder="email address"/>
+          <button>create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form action="./php/registro/registro.php" method="POST" class="login-form">
+          <input type="text" name="nombre" placeholder="Nombre completo" maxlength="150" required pattern="[a-zA-Z ]{5,254}" title="Ingresa solo letras y espacios"/>
+          <input type="text" name="usuario" placeholder="Usuario" maxlength="100" required pattern="[a-zA-Z0-9._]{5,254}" title="Ingresa solo letras, _ y numeros no espacios"/>
+          <input type="password" name="password" placeholder="Contraseña" maxlength="150" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      title="Tu contraseña debe de contener minimo 8 caracteres, un numero y con al menos una mayuscula"/>
+          <form>
+          <button type="submit">GUARDAR</a></button>
+          </form>
+        </form>
+        <p class="message"><a href="./index.php">No, por ahora.</a></p>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+</html>
