@@ -3,12 +3,12 @@
 
 <?php
   session_start();
+  $usuario = $_SESSION['username'];
 
-
-  if(isset($_SESSION['username'])){
-    $usuario = $_SESSION['username'];
-  }else{
+  if(!isset($usuario)){
     header("location: sesion.html");
+  }else{
+    
   }
 
   ?>
