@@ -76,10 +76,36 @@
 
 <!--SECCION DEL CATALOGO-->
 
-  
-
-  <!-- CUADROS DE TIENDA -->
-
+<div class="container">
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACTA CON NOSOTROS</h2><br><br>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Para dudas, sugerencias o inconvenientes llamanos o deja tu comentrio con tu situacion y te contactaremos de inmediato.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Tijauna, Baja California, MEX</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +52 6647897281</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> erwin.ruiz@uabc.edu.mx</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre completo" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
 
 
 

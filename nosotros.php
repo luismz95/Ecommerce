@@ -15,7 +15,7 @@
 
 
 <head>
-  <title>EM-EX | TIENDA OFICIAL | INICIO</title>
+  <title>EM-EX | TIENDA OFICIAL | NOSOTROS</title>
 
 
   <meta charset="utf-8">
@@ -31,7 +31,34 @@
 
   <link rel="stylesheet" href="js/index.js">
   
+<style>
+    body {
+      background: #202020;
+    }
+    h1 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 19px;
+    color: #cfc8c8;
+    margin-bottom: 30px;
+  } 
 
+  .logo {
+  color: #20c42e;
+  font-size: 200px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+  }
+
+
+
+</style>
 
 </head>
 
@@ -71,25 +98,47 @@
   </nav>
   
 
+  <div class="container">
 
+<!-- Container (About Section) -->
+<div class="container-fluid text-center">
+  <span></span>
+  <h1 class="margin">Conócenos</h1>
+  <p align="justify">Mediante un estudio de mercado encontramos la necesidad de crear una marca de ropa de calidad en el país, ya que existen muy pocas marcas que verdaderamente entregan calidad al cliente, y solo son conocidas a nivel nacional marcas contadas y sin saber si son de calidad o no.
+    En otras palabras, no se tiene idea de que en México existen marcas de ropa que son reconocidas a nivel tanto local, nacional e internacional, cuando ahora con ayuda de la tecnología y el comercio electrónico debería de ser algo muy importante para ser competitivos y seguir existiendo en el mercado. 
+    Existen marcas que son muy buenas en cuestión de calidad, más no se tiene la marca grabada en el público, es decir, no son reconocidas, escuchadas, grabadas en la memoria de los posibles compradores. Esto se debe a que muchas de ellas no intentan crecer en internet, o simplemente darse a conocer.</p>
+</div>
+
+
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <h1>Misión</h1>
+    <div class="col-sm-8">
+      <p align="left">Se pretende ofrecer una variedad de ropa a la moda para hombre que cumpla con sus estándares de calidad y estilo para una empresa líder en el mercado local.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo" style="margin-top: -25px;"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <h1>Visión</h1>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo" style="margin-top: -25px;"></span>
+    </div>
+    <div class="col-sm-8">
+      <p align="justify">Nos visualizamos dentro de 5 años como una marca de ropa comprometida con la calidad y la responsabilidad social con la elaboración de prendas con hilo de botella de plástico reciclado. Contamos con franquicias a lo largo de la Baja California para la mejor atención al cliente. Realizamos ventas a lo largo y ancho del territorio mexicano y norteamericano ofreciendo siempre calidad e innovación
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</div>
   
-
-<!--SECCION DEL CATALOGO-->
-
-  
-
-  <!-- CUADROS DE TIENDA -->
-
-
-
-
-
-<section>
-
-
-
-  
-</section>
    
 <!-- SECCION DE FUNCION DEL CARRITO -->
 
