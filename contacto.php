@@ -31,7 +31,15 @@
 
   <link rel="stylesheet" href="js/index.js">
   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT3H790L1F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LT3H790L1F');
+</script>
 
 </head>
 
@@ -107,6 +115,8 @@
 </div>
       </div>
 
+<!-- Image of location/map -->
+<iframe src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=Dra.%20Eunice%20Robles%20Macias%2C%20Jos%C3%A9%20Clemente%20Orozco%201405%2C%20Zona%20Urbana%20Rio%20Tijuana%2C%2022010%20Tijuana%2C%20B.C.+(EM-EX)&ie=UTF8&t=&z=16&iwloc=B&output=embed" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 
 

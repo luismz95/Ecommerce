@@ -34,7 +34,15 @@
 
   <link rel="stylesheet" href="js/index.js">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT3H790L1F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LT3H790L1F');
+</script>
 
 </head>
 

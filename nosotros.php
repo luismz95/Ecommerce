@@ -30,10 +30,21 @@
   <link rel="stylesheet" type="text/css" href="css/index.css"><!--estilos del navbar-->
 
   <link rel="stylesheet" href="js/index.js">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT3H790L1F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LT3H790L1F');
+</script>
   
 <style>
     body {
-      background: #202020;
+      background: #161616;
     }
     h1 {
     text-transform: uppercase;
@@ -43,12 +54,13 @@
   }
   p {
     font-size: 19px;
-    color: #cfc8c8;
+    color: #fff;
     margin-bottom: 30px;
+    font-weight: bold;
   } 
 
   .logo {
-  color: #20c42e;
+  color: #8e44ad;
   font-size: 200px;
 }
 
@@ -97,20 +109,18 @@
     </div>
   </nav>
   
-
-  <div class="container">
-
 <!-- Container (About Section) -->
-<div class="container-fluid text-center">
+<div class="container-fluid text-center nosotros" style="width: 100%; background-color: #282828; margin-top: -20px;">
   <span></span>
   <h1 class="margin">Conócenos</h1>
-  <p align="justify">Mediante un estudio de mercado encontramos la necesidad de crear una marca de ropa de calidad en el país, ya que existen muy pocas marcas que verdaderamente entregan calidad al cliente, y solo son conocidas a nivel nacional marcas contadas y sin saber si son de calidad o no.
+  <p class="nosotros" align="justify">Mediante un estudio de mercado encontramos la necesidad de crear una marca de ropa de calidad en el país, ya que existen muy pocas marcas que verdaderamente entregan calidad al cliente, y solo son conocidas a nivel nacional marcas contadas y sin saber si son de calidad o no.
     En otras palabras, no se tiene idea de que en México existen marcas de ropa que son reconocidas a nivel tanto local, nacional e internacional, cuando ahora con ayuda de la tecnología y el comercio electrónico debería de ser algo muy importante para ser competitivos y seguir existiendo en el mercado. 
     Existen marcas que son muy buenas en cuestión de calidad, más no se tiene la marca grabada en el público, es decir, no son reconocidas, escuchadas, grabadas en la memoria de los posibles compradores. Esto se debe a que muchas de ellas no intentan crecer en internet, o simplemente darse a conocer.</p>
+<br><br><br>
 </div>
 
 
-
+<div class="container">
 <div class="container-fluid text-center">
   <div class="row">
     <h1>Misión</h1>
@@ -118,7 +128,7 @@
       <p align="left">Se pretende ofrecer una variedad de ropa a la moda para hombre que cumpla con sus estándares de calidad y estilo para una empresa líder en el mercado local.</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo" style="margin-top: -25px;"></span>
+      <span class="glyphicon glyphicon-tower logo" style="margin-top: -20px;"></span>
     </div>
   </div>
 </div>
@@ -127,7 +137,7 @@
   <div class="row">
     <h1>Visión</h1>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo" style="margin-top: -25px;"></span>
+      <span class="glyphicon glyphicon-tree-deciduous logo" style="margin-top: -20px;"></span>
     </div>
     <div class="col-sm-8">
       <p align="justify">Nos visualizamos dentro de 5 años como una marca de ropa comprometida con la calidad y la responsabilidad social con la elaboración de prendas con hilo de botella de plástico reciclado. Contamos con franquicias a lo largo de la Baja California para la mejor atención al cliente. Realizamos ventas a lo largo y ancho del territorio mexicano y norteamericano ofreciendo siempre calidad e innovación
