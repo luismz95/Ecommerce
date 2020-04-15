@@ -74,7 +74,7 @@ a:active {
         <div class="container-fluid">
         <br>
         <div class="row">
-                <div class="col-sm-12"><a href="index.php"><img src="IMAGENES/img/back.png" alt="user" width="50" height="50"></a>
+                <div class="col-sm-12"><a href="javascript:history.back()"><img src="IMAGENES/img/back.png" alt="user" width="50" height="50"></a>
             </div>
             <br><br><br>
             <div class="row">
