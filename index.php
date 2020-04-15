@@ -76,7 +76,7 @@
         }
         ?>
 
-        <li><a href="php/login/sesion.php"><span class="glyphicon glyphicon-log-in"></span> <?php echo $usuario ?></a></li>
+        <li><a href="usuario.php"><span class="glyphicon glyphicon-log-in"></span> <?php echo $usuario ?></a></li>
         <li><a class="button-shop js-toggle-cart"href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito</a></li>
       </ul>
     </div>
