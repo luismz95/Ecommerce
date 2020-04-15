@@ -44,7 +44,7 @@
         </form>
         <form action="./php/registro/registro.php" method="POST" class="login-form">
           <input type="text" name="nombre" placeholder="Nombre completo" maxlength="150" required pattern="[a-zA-Z ]{5,254}" title="Ingresa solo letras y espacios"/>
-          <input type="text" name="usuario" placeholder="Usuario" maxlength="100" required pattern="[a-zA-Z0-9._]{5,254}" title="Ingresa solo letras, _ y numeros no espacios"/>
+          <input type="text" name="usuario" placeholder="Email" maxlength="100" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" title="Ingresa formato ejemplo@dom.com"/>
           <input type="password" name="password" placeholder="Contraseña" maxlength="150" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
       title="Tu contraseña debe de contener minimo 8 caracteres, un numero y con al menos una mayuscula"/>
           <form>
